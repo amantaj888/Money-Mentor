@@ -202,9 +202,9 @@ Delete a transaction by ID.
 Folder Structure
 
 MoneyMentor/
-│
-├── backend/
-│   ├── app.py           # Flask API server
+│ 
+├── backend/ 
+│   ├── app.py           # Flask API server 
 │   ├── db.sql           # Database schema
 │   ├── requirements.txt # Python dependencies
 │   └── ...
