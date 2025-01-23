@@ -1,55 +1,69 @@
-MoneyMentor - Personal Finance Tracker
-MoneyMentor is a web application designed to help users manage their personal finances. It allows users to track their income, expenses, and financial transactions efficiently. The application also provides a dashboard for users to visualize their financial data, such as balance, transaction history, and more.
+# **MoneyMentor** - Personal Finance Tracker
 
-This project is built using Angular for the frontend, Python (Flask) for the backend API, and MySQL for the database.
+**MoneyMentor** is a web application designed to help users manage their personal finances. It allows users to track their income, expenses, and financial transactions efficiently. The application also provides a dashboard for users to visualize their financial data, such as balance, transaction history, and more.
 
-Table of Contents
-Features
-Technologies Used
-Installation Instructions
-Usage
-API Documentation
-Database Setup
-Folder Structure
-Contributing
-License
-Features
-User Authentication: Secure login and registration.
-Dashboard: View the balance, income, and expense details.
-Transaction Management: Add, view, and delete transactions (expenses and incomes).
-User Profile: Customize the profile with basic information.
-Responsive Design: The application is fully responsive for both desktop and mobile devices.
-Technologies Used
-Frontend:
+This project is built using **Angular** for the frontend, **Python (Flask)** for the backend API, and **MySQL** for the database.
 
-Angular
-HTML5, CSS3, JavaScript
-Bootstrap for UI components
-NgRx for state management (optional)
-Backend:
+---
 
-Python (Flask)
-Flask-RESTful for building API
-MySQL Database for storing user and transaction data
-Others:
+## **Table of Contents**
 
-MySQL Workbench for managing the database
-Postman for API testing (optional)
-Installation Instructions
-Prerequisites
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Database Setup](#database-setup)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## **Features**
+
+- **User Authentication**: Secure login and registration.
+- **Dashboard**: View the balance, income, and expense details.
+- **Transaction Management**: Add, view, and delete transactions (expenses and incomes).
+- **User Profile**: Customize the profile with basic information.
+- **Responsive Design**: The application is fully responsive for both desktop and mobile devices.
+
+---
+
+## **Technologies Used**
+
+- **Frontend**:
+  - Angular
+  - HTML5, CSS3, JavaScript
+  - Bootstrap for UI components
+  - NgRx for state management (optional)
+
+- **Backend**:
+  - Python (Flask)
+  - Flask-RESTful for building API
+  - MySQL Database for storing user and transaction data
+
+- **Others**:
+  - MySQL Workbench for managing the database
+  - Postman for API testing (optional)
+  
+---
+
+## **Installation Instructions**
+
+### **Prerequisites**
 Before you begin, ensure you have the following installed:
+- **Node.js** and **npm** (for Angular frontend)
+- **Python** (for backend Flask API)
+- **MySQL** (for database)
+- **Git** (to clone the repository)
 
-Node.js and npm (for Angular frontend)
-Python (for backend Flask API)
-MySQL (for database)
-Git (to clone the repository)
-1. Clone the Repository
+### **1. Clone the Repository**
+
 Clone the repository to your local machine:
 
 bash
-Copy
-Edit
-git clone https://github.com/your-username/MoneyMentor.git
+git clone https://github.com/amantaj888/MoneyMentor.git
 cd MoneyMentor
 2. Setup Frontend (Angular)
 Navigate to the Angular folder:
