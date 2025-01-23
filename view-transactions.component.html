@@ -1,0 +1,20 @@
+<div class="view-transactions-container">
+    <h2>View Transactions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let transaction of transactions">
+          <td>{{ transaction.description }}</td>
+          <td>{{ transaction.amount }}</td>
+          <td>{{ transaction.type }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
